@@ -11,6 +11,7 @@ This project depends on Docker to setup database. With Docker installed, clone t
 > You must also run migrations to create database tables and run the seed to populate the database with fake data.
 
 ```sh
+cd api
 bun i
 docker compose up -d
 bun migrate
@@ -33,3 +34,13 @@ bun dev
 - it should be able to update the restaurant public profile
 - it should be able to open/close the restaurant
 - it should be able to list metrics from the restaurant
+
+# 🍕 pizza.shop CLIENT
+
+## Running
+
+```sh
+cd client
+pnpm i
+pnpm start
+```
